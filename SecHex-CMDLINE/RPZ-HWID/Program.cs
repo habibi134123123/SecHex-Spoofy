@@ -589,7 +589,7 @@ namespace HWID_Changer
 
         public static void Menu()
         {
-            Console.WriteLine("\n  SecHex");
+            Console.WriteLine("\n  Vortex");
             Console.Write("  Select an option: ");
             string input = Console.ReadLine();
 
@@ -736,7 +736,7 @@ namespace HWID_Changer
 
         static void Main()
         {
-            Console.Title = "SecHex | V1.3 | Open Source | github/SecHex";
+            Console.Title = "Vortex | V1.3 | ";
             Console.ForegroundColor
           = ConsoleColor.Magenta;
             Console.Clear();
@@ -746,7 +746,7 @@ namespace HWID_Changer
             Console.WriteLine("╚════██║██╔═══╝ ██║   ██║██║   ██║██╔══╝    ╚██╔╝        ");
             Console.WriteLine("███████║██║     ╚██████╔╝╚██████╔╝██║        ██║         ");
             Console.WriteLine("╚══════╝╚═╝      ╚═════╝  ╚═════╝ ╚═╝        ╚═╝         ");
-            Console.WriteLine("https://github.com/SecHex                                ");
+            Console.WriteLine("https://github.com/Vortex                                ");
             Console.WriteLine("                                            ");
             Console.WriteLine("[1] Spoof HWID                       [7] Spoof PC Name            ");
             Console.WriteLine("[2] Spoof GUID                       [8] Spoof Installation ID    ");
